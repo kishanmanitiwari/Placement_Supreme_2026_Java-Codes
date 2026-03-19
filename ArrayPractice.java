@@ -8,7 +8,7 @@ public class ArrayPractice {
     //     System.out.println(ans[i]);
     //    }
 
-       boolean ans = linearSearch(arr,2);
+       int ans = linearSearch(arr,2);
 
        System.out.println(ans);
 
@@ -19,14 +19,14 @@ public class ArrayPractice {
 
     // int[] or int arr[]
 
-    private static boolean linearSearch(int[] arr, int elem) {
+    private static int linearSearch(int[] arr, int elem) {
         for(int i=0;i<arr.length,i++){
             if(arr[i]==elem){
-                return true;
+                return i;
             }
         }
 
-        return false;
+        return -1;
     }
 
 
@@ -160,7 +160,7 @@ public class ArrayPractice {
 
         for(int i=0;i<arr.length;i++){
             for(int j=i+1;j<  ; j++){
-                
+
             }
         }
     }
